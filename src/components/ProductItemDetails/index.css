@@ -1,0 +1,170 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.product-details-container {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 1196px;
+}
+
+.product-img {
+  width: 300px;
+  margin: 10px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-text-details {
+  margin-left: 20px;
+  margin-right: 20px;
+  align-self: flex-start;
+  padding: 0;
+}
+
+.title {
+  margin-top: 5px;
+}
+
+.product-price {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.product-rating {
+  color: #ffffff;
+}
+
+.star-img {
+  height: 15px;
+  width: 15px;
+}
+
+.product-rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  width: fit-content;
+  height: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.rating-reviews-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-reviews {
+  margin-left: 5px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  text-align: justify;
+}
+
+.product-description {
+  color: #475569;
+}
+
+.brand-name {
+  color: #475569;
+}
+
+.availability {
+  color: #475569;
+}
+
+.product-availability {
+  color: #1e293b;
+}
+
+.product-brand {
+  color: #1e293b;
+}
+
+.add-to-cart-btn {
+  background-color: #3b82f6;
+  border-width: 0;
+  outline: none;
+  color: #ffffff;
+  height: 30px;
+  width: 150px;
+  padding: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.similar-product-item-img {
+  height: 50%;
+  width: 200px;
+  max-width: 280px;
+  border-radius: 5px;
+}
+
+.similar-product-item-name {
+  font-family: 'Roboto';
+  font-size: 17px;
+  max-width: 220px;
+}
+
+.similar-product-item {
+  margin: 15px;
+}
+
+.similar-products-list {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  margin-left: 8px;
+}
+
+.price-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.similar-products-heading {
+  margin-left: 60px;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+.similar-products-container {
+  padding-left: 5px;
+}
+
+@media screen and (min-width: 1260px) {
+  .similar-products-container {
+    align-self: flex-start;
+    margin-left: 100px;
+  }
+
+  .product-details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
