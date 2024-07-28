@@ -18,7 +18,7 @@ const Footer = props => {
         <br />
         For Source Code{' '}
         <a
-          href="https://www.linkedin.com/in/raajjeshreddy/"
+          href="https://github.com/rajeshreddyy/Nxt-Trendz"
           target="_blank"
           rel="noreferrer"
         >
