@@ -53,23 +53,41 @@ The app is currently hosted at [Nxt Trendz Live](https://nxttrendz9raj.ccbp.tech
 nxt-trendz/
 <br/>
 ├── public/
+<br/>
 │   ├── index.html
+<br/>
 │   └── ...
+<br/>
 ├── src/
+<br/>
 │   ├── components/
+<br/>
 │   │   ├── Login.js
+<br/>
 │   │   ├── Home.js
+<br/>
 │   │   ├── Products.js
+<br/>
 │   │   ├── ProductItemDetails.js
+<br/>
 │   │   ├── Cart.js
+<br/>
 │   │   ├── NotFound.js
+<br/>
 │   │   └── ...
+<br/>
 │   ├── App.js
+<br/>
 │   ├── index.js
+<br/>
 │   └── ...
+<br/>
 ├── package.json
+<br/>
 ├── README.md
+<br/>
 └── ...
+<br/>
 
 
 ## Project Setup
