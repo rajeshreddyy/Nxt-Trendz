@@ -120,9 +120,7 @@ Nxt-Trendz/
 ├── package.json
 ├── pnpm-lock.yaml
 └── yarn.lock
-
-
-
+```
 
 ## Project Setup
 
