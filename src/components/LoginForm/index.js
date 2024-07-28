@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import {Redirect} from 'react-router-dom'
-
+import Footer from '../Footer'
 import './index.css'
 
 class LoginForm extends Component {
@@ -22,11 +22,7 @@ class LoginForm extends Component {
 
   onSubmitSuccess = jwtToken => {
     const {history} = this.props
-
-    Cookies.set('jwt_token', jwtToken, {
-      expires: 30,
-      path: '/',
-    })
+    Cookies.set('jwt_token', jwtToken, {expires: 30})
     history.replace('/')
   }
 
@@ -65,6 +61,7 @@ class LoginForm extends Component {
           className="password-input-field"
           value={password}
           onChange={this.onChangePassword}
+          placeholder="Password"
         />
       </>
     )
@@ -83,6 +80,7 @@ class LoginForm extends Component {
           className="username-input-field"
           value={username}
           onChange={this.onChangeUsername}
+          placeholder="Username"
         />
       </>
     )
@@ -91,33 +89,52 @@ class LoginForm extends Component {
   render() {
     const {showSubmitError, errorMsg} = this.state
     const jwtToken = Cookies.get('jwt_token')
+
     if (jwtToken !== undefined) {
       return <Redirect to="/" />
     }
+
     return (
       <div className="login-form-container">
         <img
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-          className="login-website-logo-mobile-image"
+          className="login-website-logo-mobile-img"
           alt="website logo"
         />
         <img
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
-          className="login-image"
+          className="login-img"
           alt="website login"
         />
         <form className="form-container" onSubmit={this.submitForm}>
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-            className="login-website-logo-desktop-image"
+            className="login-website-logo-desktop-img"
             alt="website logo"
           />
+          <Footer textCenter />
           <div className="input-container">{this.renderUsernameField()}</div>
           <div className="input-container">{this.renderPasswordField()}</div>
           <button type="submit" className="login-button">
             Login
           </button>
           {showSubmitError && <p className="error-message">*{errorMsg}</p>}
+          <div>
+            <p className="my-password">
+              <strong>Prime User credentials:</strong>
+              <br />
+              Username: <code>rahul</code>
+              <br />
+              Password: <code>rahul@2021</code>
+            </p>
+            <p className="my-password">
+              <strong>Non-Prime User credentials:</strong>
+              <br />
+              Username: <code>raja</code>
+              <br />
+              Password: <code>raja@2021</code>
+            </p>
+          </div>
         </form>
       </div>
     )
