@@ -39,9 +39,7 @@ Nxt Trendz is a clone of popular eCommerce platforms like Amazon and Flipkart. T
 
 
 ## Deployment
-
-Make sure to replace `https://nxttrendz9raj.ccbp.tech/` with the actual link where the demo video is located.
-
+The app is currently hosted at Nxt Trendz [Live](https://nxttrendz9raj.ccbp.tech/).
 
 
 ## Project Setup
