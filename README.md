@@ -2,7 +2,7 @@
 
 Nxt Trendz is a clone of popular eCommerce platforms like Amazon and Flipkart. This application allows users to log in, browse through a list of products, search, filter, sort, view product details, and add items to a shopping cart.
 
-### Refer to the image below:
+### Demo Video:
 
 <br/>
 <div style="text-align: center;">
