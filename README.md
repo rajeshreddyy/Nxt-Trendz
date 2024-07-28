@@ -31,15 +31,15 @@ Nxt Trendz is a clone of popular eCommerce platforms like Amazon and Flipkart. T
 - This token is used in the headers of subsequent API calls to authorize the user.
 
 ## API Endpoints
-- Login: POST /login
-- Get Products: GET /products
-- Get Product Details: GET /products/:id
-- Add to Cart: POST /cart
-- Get Cart Items: GET /cart
+- Login: `POST /login`
+- Get Products: `GET /products`
+- Get Product Details: `GET /products/:id`
+- Add to Cart: `POST /cart`
+- Get Cart Items: `GET /cart`
 
 
 ## Deployment
-The app is currently hosted at Nxt Trendz [Live](https://nxttrendz9raj.ccbp.tech/).
+The app is currently hosted at [Nxt Trendz Live](https://nxttrendz9raj.ccbp.tech/).
 
 
 ## Project Setup
