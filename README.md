@@ -41,6 +41,27 @@ Nxt Trendz is a clone of popular eCommerce platforms like Amazon and Flipkart. T
 ## Deployment
 The app is currently hosted at [Nxt Trendz Live](https://nxttrendz9raj.ccbp.tech/).
 
+## Folder Structure
+nxt-trendz/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Login.js
+│   │   ├── Home.js
+│   │   ├── Products.js
+│   │   ├── ProductItemDetails.js
+│   │   ├── Cart.js
+│   │   ├── NotFound.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── README.md
+└── ...
+
 
 ## Project Setup
 
