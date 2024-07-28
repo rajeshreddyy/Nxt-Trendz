@@ -54,51 +54,73 @@ The app is currently hosted at [Nxt Trendz Live](https://nxttrendz9raj.ccbp.tech
 ```plaintext
 Nxt-Trendz/
 ├── public/
-│   ├── favicon.ico
+│   ├── img/
 │   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
 │   ├── manifest.json
 │   └── robots.txt
 ├── src/
 │   ├── App.css
 │   ├── App.js
-│   ├── App.test.js
-│   ├── components/
-│   │   ├── Header/
-│   │   │   ├── index.js
-│   │   │   └── styles.css
-│   │   ├── LoginForm/
-│   │   │   ├── index.js
-│   │   │   └── styles.css
-│   │   ├── ProductCard/
-│   │   │   ├── index.js
-│   │   │   └── styles.css
-│   │   ├── ProductDetails/
-│   │   │   ├── index.js
-│   │   │   └── styles.css
-│   │   ├── Products/
-│   │   │   ├── index.js
-│   │   │   └── styles.css
-│   │   └── ShoppingCart/
-│   │       ├── index.js
-│   │       └── styles.css
-│   ├── context/
-│   │   └── CartContext.js
-│   ├── images/
-│   │   ├── logo.png
-│   │   └── ...
-│   ├── index.css
 │   ├── index.js
-│   ├── logo.svg
-│   ├── reportWebVitals.js
 │   ├── setupTests.js
-│   └── utils/
-│       └── api.js
+│   ├── components/
+│   │   ├── AllProductsSection/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── Cart/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── FiltersGroup/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── Footer/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── Header/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── Home/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── LoginForm/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── NotFound/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── PrimeDealsSection/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── ProductCard/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── ProductItemDetails/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── Products/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── ProductsHeader/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   ├── ProtectedRoute/
+│   │   │   ├── index.css
+│   │   │   └── index.js
+│   │   └── SimilarProductItem/
+│   │       ├── index.css
+│   │       └── index.js
+├── .eslintrc
+├── .eslintignore
+├── .gitattributes
 ├── .gitignore
-├── package.json
+├── .npmrc
+├── .prettierignore
+├── .prettierrc
 ├── README.md
+├── package.json
+├── pnpm-lock.yaml
 └── yarn.lock
+
 
 
 
