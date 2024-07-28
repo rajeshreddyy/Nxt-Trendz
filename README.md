@@ -30,6 +30,20 @@ Nxt Trendz is a clone of popular eCommerce platforms like Amazon and Flipkart. T
 - Upon successful login, a JWT token is returned and stored in local storage.
 - This token is used in the headers of subsequent API calls to authorize the user.
 
+## API Endpoints
+- Login: POST /login
+- Get Products: GET /products
+- Get Product Details: GET /products/:id
+- Add to Cart: POST /cart
+- Get Cart Items: GET /cart
+
+
+## Deployment
+
+Make sure to replace `https://nxttrendz9raj.ccbp.tech/` with the actual link where the demo video is located.
+
+
+
 ## Project Setup
 
 ### Prerequisites
