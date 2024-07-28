@@ -51,6 +51,7 @@ The app is currently hosted at [Nxt Trendz Live](https://nxttrendz9raj.ccbp.tech
 
 ## Folder Structure
 nxt-trendz/
+<br/>
 ├── public/
 │   ├── index.html
 │   └── ...
