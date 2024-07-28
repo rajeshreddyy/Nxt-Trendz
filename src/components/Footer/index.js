@@ -6,10 +6,10 @@ const Footer = props => {
   return (
     <div className="my-text-container">
       <p className={myTextClass}>
-        WebApp built by Tenali Bhargav <br />
+        WebApp built by Rajesh R <br />
         To see my LinkedIn Profile{' '}
         <a
-          href="https://www.linkedin.com/in/bhargavtenali/"
+          href="https://www.linkedin.com/in/raajjeshreddy/"
           target="_blank"
           rel="noreferrer"
         >
@@ -18,7 +18,7 @@ const Footer = props => {
         <br />
         For Source Code{' '}
         <a
-          href="https://www.linkedin.com/in/bhargavtenali/"
+          href="https://www.linkedin.com/in/raajjeshreddy/"
           target="_blank"
           rel="noreferrer"
         >
