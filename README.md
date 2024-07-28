@@ -25,6 +25,11 @@ Nxt Trendz is a clone of popular eCommerce platforms like Amazon and Flipkart. T
 - **Local Storage**
 - **JWT Token** for Authentication and Authorization
 
+## Authentication
+- User credentials are sent via a POST request to the login endpoint.
+- Upon successful login, a JWT token is returned and stored in local storage.
+- This token is used in the headers of subsequent API calls to authorize the user.
+
 ## Project Setup
 
 ### Prerequisites
