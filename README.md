@@ -50,44 +50,56 @@ Nxt Trendz is a clone of popular eCommerce platforms like Amazon and Flipkart. T
 The app is currently hosted at [Nxt Trendz Live](https://nxttrendz9raj.ccbp.tech/).
 
 ## Folder Structure
-nxt-trendz/
-<br/>
+
+```plaintext
+Nxt-Trendz/
 ├── public/
-<br/>
+│   ├── favicon.ico
 │   ├── index.html
-<br/>
-│   └── ...
-<br/>
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
 ├── src/
-<br/>
-│   ├── components/
-<br/>
-│   │   ├── Login.js
-<br/>
-│   │   ├── Home.js
-<br/>
-│   │   ├── Products.js
-<br/>
-│   │   ├── ProductItemDetails.js
-<br/>
-│   │   ├── Cart.js
-<br/>
-│   │   ├── NotFound.js
-<br/>
-│   │   └── ...
-<br/>
+│   ├── App.css
 │   ├── App.js
-<br/>
+│   ├── App.test.js
+│   ├── components/
+│   │   ├── Header/
+│   │   │   ├── index.js
+│   │   │   └── styles.css
+│   │   ├── LoginForm/
+│   │   │   ├── index.js
+│   │   │   └── styles.css
+│   │   ├── ProductCard/
+│   │   │   ├── index.js
+│   │   │   └── styles.css
+│   │   ├── ProductDetails/
+│   │   │   ├── index.js
+│   │   │   └── styles.css
+│   │   ├── Products/
+│   │   │   ├── index.js
+│   │   │   └── styles.css
+│   │   └── ShoppingCart/
+│   │       ├── index.js
+│   │       └── styles.css
+│   ├── context/
+│   │   └── CartContext.js
+│   ├── images/
+│   │   ├── logo.png
+│   │   └── ...
+│   ├── index.css
 │   ├── index.js
-<br/>
-│   └── ...
-<br/>
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+│   └── utils/
+│       └── api.js
+├── .gitignore
 ├── package.json
-<br/>
 ├── README.md
-<br/>
-└── ...
-<br/>
+└── yarn.lock
+
 
 
 ## Project Setup
